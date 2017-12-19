@@ -1,0 +1,25 @@
+{
+    "name": "Vs/Paletter",
+    "type": "tool",
+    "description": "Extract informations about proportions of colors in a picture",
+    "homepage": "https://vasya.pro",
+    "keywords": ["php", "graphics", "pictures", "colors", "tools", "images"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vasilii B. Shpilchin",
+            "email": "shpilchin@vasya.pro",
+            "role": "Creator"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "ext-gd": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vs\\Paletter\\": ["src", "src/Classes", "src/Abstract"]
+        }
+    }
+
+}

@@ -1,0 +1,15 @@
+The Paletter it is tool for extract informations about proportions of colors
+in a picture.
+
+Usualy, the Paletter have to build default palette (256 colors) and correlate
+color of each pixels of a picture with color from the palette.
+
+You can fill palette by any colors, at your discretion.
+
+Also, you can use the PseudoImage object, having fill by any colors in any
+proportion, and will make corelate of this "picture" to palette.
+
+See examples.
+
+MIT License.
+Copyright (c) 2017 Vasilii B. Shpilchin.
