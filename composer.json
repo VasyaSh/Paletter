@@ -1,5 +1,5 @@
 {
-    "name": "Vs/Paletter",
+    "name": "vs/paletter",
     "type": "tool",
     "description": "Extract informations about proportions of colors in a picture",
     "homepage": "https://vasya.pro",
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Vs\\Paletter\\": ["src", "src/Classes", "src/Abstract"]
+            "vs\\paletter\\": ["src", "src/Classes", "src/Abstract"]
         }
     }
 
